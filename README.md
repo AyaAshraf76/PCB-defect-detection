@@ -1,4 +1,4 @@
-![image](https://github.com/Lenovo76/PCB-defect-detection/assets/143762427/105e1b48-4c0a-43d3-83ec-bd3303b8947f)# PCB_defect_detection
+# PCB_defect_detection
 This project demonstrates the use of the object detection model YOLOv8 for the task of detecting surface defects on Printed Circuit Boards (PCBs) as shown below. The defects detected include missing holes, mouse bites, open and short circuits.
 <p align="center"> 
   <img src="https://www.mdpi.com/electronics/electronics-12-02821/article_deploy/html/images/electronics-12-02821-g001.png" width="350" title="PCB defects"> 
@@ -26,7 +26,8 @@ Training the YOLOv8 model for a greater number of epochs can lead to enhanced ac
 
 ### 1. Confusion matrix 
 A confusion matrix in YOLO summarizes the performance of the object detection model by showing the counts of true positives, false positives, true negatives, and false negatives as shown below in the figure.
-https://blog.roboflow.com/content/images/size/w2000/2022/11/confussion-matrix-2.png
+![image](https://github.com/Lenovo76/PCB-defect-detection/assets/143762427/90612b40-5329-44e5-9043-5978b84c1f6d)
+
 It helps in understanding how well the model is detecting objects (precision and recall) and where it might be making mistakes (confusion between classes).
 ![image](https://github.com/Lenovo76/PCB-defect-detection/assets/143762427/da26f714-2adb-446b-9d57-54692efeeddb)
 
@@ -41,7 +42,8 @@ In brief, A higher F1 score indicates better performance, and the confidence thr
 The Precision-Recall Curve is a plot that shows the trade-off between precision and recall for different threshold values.
 Precision: How many of the items identified as positive are actually positive.
 Recall: How many of the actual positives were identified correctly.
-https://lh3.googleusercontent.com/X3iU9gn6QFMV-rMWevV2W_w562vdbdr9n-lBlVJxFDyv-XcIwR_s1ZAkZMqnmfsIjXviKKT4KoYb4HI7rp8upFUpCN7DZv39Ys5Bv-o-_RsWFT-nP-ecjqm3UxEJr98cwhhDKijvOy5obdkEekIBMLnFjQzZ5y6b-zwMOwo72L5PLUmLcdPwhl5PVcI5dw
+![image](https://github.com/Lenovo76/PCB-defect-detection/assets/143762427/aa3d1237-2bf6-4faa-bee7-161e3d052f42)
+
 
 The area under the curve (AUC) is a measure of how well the model is able to distinguish between classes. The closer the curve follows the top-right corner, the more accurate the model is.
 ![image](https://github.com/Lenovo76/PCB-defect-detection/assets/143762427/402cef16-5f7c-497f-9e85-657f818714cd)
