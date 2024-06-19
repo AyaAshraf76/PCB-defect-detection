@@ -26,6 +26,6 @@ Training the YOLOv8 model for a greater number of epochs can lead to enhanced ac
 ## 3. Validate the model
 The trained model is evaluated on a separate validation dataset to assess its performance and identify areas for improvement.
 
-# 4. Prediction phase
+## 4. Prediction phase
 Once trained and validated, the model can be used to make predictions on new, unseen data, detecting and localizing PCB defects.
 
