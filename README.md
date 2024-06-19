@@ -1,4 +1,4 @@
-# PCB-defect-detection
+# PCB_defect_detection
 This project demonstrates the use of the object detection model YOLOv8 for the task of detecting surface defects on Printed Circuit Boards (PCBs) as shown below. The defects detected include missing holes, mouse bites, open and short circuits.
 <p align="center"> 
   <img src="https://www.mdpi.com/electronics/electronics-12-02821/article_deploy/html/images/electronics-12-02821-g001.png" width="350" title="PCB defects"> 
